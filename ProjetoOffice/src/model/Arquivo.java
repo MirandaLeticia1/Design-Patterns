@@ -15,6 +15,8 @@ public class Arquivo {
 
     private Programa programa;
 
+// SINGLETON
+
     public synchronized Arquivo getInstance() {
         if (arquivo == null)
             arquivo = new Arquivo();
